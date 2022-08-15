@@ -8,7 +8,11 @@ a.menu {
 
 .btn-blue {
     background-color: #0077C0 !important;
+}
 
+.btn-white {
+    background-color: #ffff !important;
+    color: #0077C0 !important;
 }
 
 .img-logo {
@@ -20,12 +24,28 @@ a.menu {
     color: #0077C0;
 }
 
+.color-white {
+    color: #ffff;
+}
+
+.color-lightgray{
+    color: #fafafade;
+}
+
 .bg-blue {
     background-color: #0077C0;
 }
 
-.bg-gray{
+.bg-lightgray {
     background-color: #FAFAFA;
+}
+
+.bg-darkgray {
+    background-color: #1D242B;
+}
+
+.bg-gray {
+    background-color: #313131;
 }
 
 .font-small {
@@ -44,13 +64,11 @@ a.menu {
 .square-small {
     width: 30px;
     height: 30px;
-
 }
 
 .cardimg-size {
     width: 300px;
     height: 650px;
-
 }
 
 .max-height {
@@ -117,7 +135,6 @@ a.menu {
     position: absolute;
     z-index: 5;
     left: 50px;
-
 }
 
 .img-absolute-front {
@@ -130,4 +147,43 @@ a.menu {
     position: absolute;
     z-index: 6;
     left: 80px;
+}
+
+.img-height {
+    height: 300px;
+}
+
+.font-size-big {
+    font-size: 50px;
+}
+
+.input-group {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 35px;
+    border: 0!important;
+    background-color: #313131!important;
+    color: white !important;
+    z-index: 1;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #313131;
+    transform: translateX(2px);
 }
