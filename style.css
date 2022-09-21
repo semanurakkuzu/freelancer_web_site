@@ -1,0 +1,189 @@
+a.menu:hover {
+    color: #0077C0 !important;
+}
+
+a.menu {
+    font-size: 16px;
+}
+
+.btn-blue {
+    background-color: #0077C0 !important;
+}
+
+.btn-white {
+    background-color: #ffff !important;
+    color: #0077C0 !important;
+}
+
+.img-logo {
+    width: 150px;
+    height: 100px;
+}
+
+.color-blue {
+    color: #0077C0;
+}
+
+.color-white {
+    color: #ffff;
+}
+
+.color-lightgray{
+    color: #fafafade;
+}
+
+.bg-blue {
+    background-color: #0077C0;
+}
+
+.bg-lightgray {
+    background-color: #FAFAFA;
+}
+
+.bg-darkgray {
+    background-color: #1D242B;
+}
+
+.bg-gray {
+    background-color: #313131;
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+.bg-light-blue {
+    background-color: #C7EEFF;
+    color: black;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.square-small {
+    width: 30px;
+    height: 30px;
+}
+
+.cardimg-size {
+    width: 300px;
+    height: 650px;
+}
+
+.max-height {
+    max-height: 600px;
+}
+
+.blue-circle-relative {
+    border-radius: 250px;
+    background-color: #0077C0;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.absolute {
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    z-index: 3;
+}
+
+.container-height {
+    height: 645px;
+}
+
+.card-up-absolute {
+    position: absolute;
+    bottom: 350px;
+    left: 300px;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    z-index: 2;
+}
+
+.card-absolute {
+    position: absolute;
+    bottom: 150px;
+    right: 350px;
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    z-index: 4;
+}
+
+.img-size {
+    width: 70px;
+    height: 70px;
+}
+
+.color-yellow {
+    color: rgb(236, 220, 71);
+}
+
+.img-size-small {
+    width: 40px;
+    height: 40px;
+}
+
+.img-absolute-back {
+    position: absolute;
+    z-index: 5;
+    left: 50px;
+}
+
+.img-absolute-front {
+    position: absolute;
+    z-index: 7;
+    left: 110px;
+}
+
+.img-absolute-middle {
+    position: absolute;
+    z-index: 6;
+    left: 80px;
+}
+
+.img-height {
+    height: 300px;
+}
+
+.font-size-big {
+    font-size: 50px;
+}
+
+.input-group {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 35px;
+    border: 0!important;
+    background-color: #313131!important;
+    color: white !important;
+    z-index: 1;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #313131;
+    transform: translateX(2px);
+}
