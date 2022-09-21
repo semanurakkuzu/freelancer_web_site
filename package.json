@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "deploy": "npm install && gh-pages -d ./"
+    "deploy": "gh-pages -d ./",
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
