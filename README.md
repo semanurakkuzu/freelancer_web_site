@@ -1,5 +1,5 @@
 # freelancer_web_site
-# Html Css Website
+# Html Css Bootstrap Website
 
 Bu proje bir websitedir.  **Html, css, bootstrap 5.2**  ile yazılmıştır. 
 Tasarım **figma** uygulamasından alınmıştır.
